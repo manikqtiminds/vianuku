@@ -2,7 +2,7 @@ import { Linkedin, Github, Mail } from 'lucide-react';
 import type { FounderData } from './types';
 
 export const founderData: FounderData = {
-  image: '/public/images/founder/founder.png',
+  image: '/images/founder/founder.png',
   role: 'Founder & CEO',
   experience: '20+ Years in Technology',
   quote: [
