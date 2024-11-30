@@ -1,11 +1,12 @@
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
 import Header from './components/layout/Header';
 import Hero from './components/sections/Hero';
 import Services from './components/sections/Services';
-import Team from './components/sections/Team';
+import Founder from './components/sections/Founder';
 import About from './components/sections/About';
 import Portfolio from './components/sections/Portfolio';
 import Contact from './components/sections/Contact';
+import Expertise from './components/sections/Expertise';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           <Hero />
           <Services />
           <About />
-          <Team />
+          <Founder />
+          <Expertise />
           <Portfolio />
           <Contact />
         </Suspense>

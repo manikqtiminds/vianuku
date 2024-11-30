@@ -1,9 +1,12 @@
-import React from 'react';
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from '../../hooks/useTheme';
 import { cn } from '../../utils/cn';
 
-export function ThemeToggle({ className }: { className?: string }) {
+interface ThemeToggleProps {
+  className?: string;
+}
+
+export function ThemeToggle({ className }: ThemeToggleProps) {
   const { theme, setTheme } = useTheme();
 
   return (
